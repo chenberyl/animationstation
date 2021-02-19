@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+body {
+  background-image: url(images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#grid {
+  display: grid;
+  grid-template-rows: repeat(7,100px);
+  grid-template-columns: repeat(5,20%);
+}
+
+.text {
+  color: #DEEBFF;
+  font-family: 'Teko', sans-serif;
+  text-shadow: 8px 8px #08205E;
+}
+
+.t {
+  line-height: 80%;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 12vw;
+  display: flex;
+  justify-content: center;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
