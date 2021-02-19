@@ -21,6 +21,9 @@
   -webkit-animation: blink-animation 2s steps(7, start) infinite;
 }
 
+/* Blink Animation from: https://stackoverflow.com/questions/13955163/imitating-a-blink-tag-with-css3-animations
+ */
+
 @keyframes blink-animation {
   50% {
     opacity: 0.0;
