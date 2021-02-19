@@ -35,6 +35,9 @@ body {
    /* transform: rotate(.03turn);  */
 }
 
+/* 
+Spinning Animation from: https://codepen.io/teerapuch/pen/vLJXeR */
+
 @keyframes spin {
     from {
         transform:rotate(0deg);
